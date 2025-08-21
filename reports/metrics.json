@@ -1,0 +1,18 @@
+{
+  "model_name": "XGBRegressor",
+  "cv_r2_mean": 0.9682026357994238,
+  "cv_r2_std": 0.012949605652191455,
+  "test_r2": 0.7607408233934077,
+  "test_mae": 6343312.53452381,
+  "n_params": 8,
+  "best_params": {
+    "n_estimators": 817,
+    "max_depth": 3,
+    "learning_rate": 0.08660589420211018,
+    "subsample": 0.921113680330137,
+    "colsample_bytree": 0.8634777009147753,
+    "min_child_weight": 3.123730446421237,
+    "reg_alpha": 0.0003794542451778193,
+    "reg_lambda": 0.8926495234918913
+  }
+}
