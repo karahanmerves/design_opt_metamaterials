@@ -1,18 +1,25 @@
 {
   "model_name": "XGBRegressor",
-  "cv_r2_mean": 0.9682026357994238,
-  "cv_r2_std": 0.012949605652191455,
-  "test_r2": 0.7607408233934077,
-  "test_mae": 6343312.53452381,
+  "cv_r2_mean": 0.9753277575325123,
+  "cv_r2_std": 0.008134759862933343,
+  "test_r2": 0.7782095554059387,
+  "test_mae": 5202928.089285714,
   "n_params": 8,
   "best_params": {
-    "n_estimators": 817,
+    "n_estimators": 1290,
     "max_depth": 3,
-    "learning_rate": 0.08660589420211018,
-    "subsample": 0.921113680330137,
-    "colsample_bytree": 0.8634777009147753,
-    "min_child_weight": 3.123730446421237,
-    "reg_alpha": 0.0003794542451778193,
-    "reg_lambda": 0.8926495234918913
-  }
+    "learning_rate": 0.058667650354788305,
+    "subsample": 0.7239809234200354,
+    "colsample_bytree": 0.9391476413635371,
+    "min_child_weight": 2.156234021947074,
+    "reg_alpha": 4.143130477137527e-06,
+    "reg_lambda": 2.091738960985905
+  },
+  "used_log_target": true,
+  "used_engineered_feats": true,
+  "cv_scheme": "RepeatedKFold(5x5)",
+  "bounds_percentiles": [
+    5,
+    95
+  ]
 }
